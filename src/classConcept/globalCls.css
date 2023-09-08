@@ -1,0 +1,63 @@
+/* File Handling */
+.flex-container {
+  display: flex;
+  padding: 2rem;
+  gap: 1rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: teal;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.input-cls {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.eq-btn {
+  border: 0;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  background-color: teal;
+  color: #fff;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+/* Event handling and binding */
+.event-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #8c2196;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.event-btn {
+  background-color: #e69aec;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #48034e;
+}
